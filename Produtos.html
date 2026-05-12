@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTG System</title>
+    <link rel="stylesheet" href="Produtos.css">
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div>
+
+            <div class="logo">
+                <h1>MTG SYSTEM</h1>
+                <p>DEVELOPMENT</p>
+            </div>
+
+            <nav class="menu">
+
+                <h3 class="menu-title">
+                    MENU PRINCIPAL
+                </h3>
+
+                <ul>
+
+                    <li>
+                        <a href="#">
+                            Dashboard
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="active">
+                            Produtos
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Estoque
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Relatórios
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Usuários
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Configurações
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+        <!-- USUÁRIO -->
+
+        <div class="user">
+
+            <div class="avatar">
+                G
+            </div>
+
+            <div class="user-info">
+                <h3>Guilherme</h3>
+                <p>Administrador</p>
+            </div>
+
+        </div>
+
+    </aside>
+
+    <!-- MAIN -->
+
+    <main class="main">
+
+        <!-- TOPO -->
+
+        <header class="topbar">
+
+            <h2>
+                Painel Administrativo
+            </h2>
+
+            <div class="topbar-actions">
+
+                <button class="logout-btn">
+                    ↪
+                </button>
+
+            </div>
+
+        </header>
+
+        <!-- PRODUCTS PAGE -->
+
+        <section class="products-page">
+
+            <!-- HEADER -->
+
+            <div class="products-header">
+
+                <div>
+
+                    <h1>
+                        Produtos
+                    </h1>
+
+                    <p>
+                        Gestão completa do inventário • 15 produtos
+                    </p>
+
+                </div>
+
+                <button class="btn">
+                    + Novo Produto
+                </button>
+
+            </div>
+
+            <!-- FILTERS -->
+
+            <div class="filters-box">
+
+                <div class="search-box">
+
+                    <input
+                        type="text"
+                        placeholder="Buscar por nome, SKU ou fornecedor..."
+                    >
+
+                </div>
+
+                <div class="filters">
+
+                    <select>
+
+                        <option>
+                            Todas as categorias
+                        </option>
+
+                    </select>
+
+                    <select>
+
+                        <option>
+                            Todo estoque
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+            <!-- TABLE -->
+
+            <div class="table-container">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>SKU</th>
+                            <th>PRODUTO</th>
+                            <th>CATEGORIA</th>
+                            <th>ESTOQUE</th>
+                            <th>PREÇO R$</th>
+                            <th>CADASTRADO EM</th>
+                            <th>AÇÕES</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <!-- LINHA 1 -->
+
+                        <tr>
+
+                            <td>
+                                MTG-00015
+                            </td>
+
+                            <td>
+
+                                <div class="product-info">
+
+                                    <strong>
+                                        Rolamento de Roda Dianteiro
+                                    </strong>
+
+                                    <span>
+                                        Distribuidora Sul
+                                    </span>
+
+                                </div>
+
+                            </td>
+
+                            <td>
+
+                                <span class="tag">
+                                    SUSPENSÃO
+                                </span>
+
+                            </td>
+
+                            <td>
+
+                                <span class="stock low">
+                                    6 • BAIXO
+                                </span>
+
+                            </td>
+
+                            <td>
+                                R$ 155,00
+                            </td>
+
+                            <td>
+
+                                <div class="date-info">
+
+                                    <strong>
+                                        09/05/2026
+                                    </strong>
+
+                                    <span>
+                                        09:00
+                                    </span>
+
+                                </div>
+
+                            </td>
+
+                            <td>
+
+                                <div class="actions">
+
+                                    <button>✎</button>
+                                    <button>↑</button>
+                                    <button>↓</button>
+                                    <button>🗑</button>
+
+                                </div>
+
+                            </td>
+
+                        </tr>
+
+                        <!-- LINHA 2 -->
+
+                        <tr>
+
+                            <td>
+                                MTG-00014
+                            </td>
+
+                            <td>
+
+                                <div class="product-info">
+
+                                    <strong>
+                                        Fluido de Freio DOT 4
+                                    </strong>
+
+                                    <span>
+                                        Auto Peças Norte
+                                    </span>
+
+                                </div>
+
+                            </td>
+
+                            <td>
+
+                                <span class="tag">
+                                    FREIOS
+                                </span>
+
+                            </td>
+
+                            <td>
+
+                                <span class="stock normal">
+                                    55 • NORMAL
+                                </span>
+
+                            </td>
+
+                            <td>
+                                R$ 28,00
+                            </td>
+
+                            <td>
+
+                                <div class="date-info">
+
+                                    <strong>
+                                        09/05/2026
+                                    </strong>
+
+                                    <span>
+                                        08:45
+                                    </span>
+
+                                </div>
+
+                            </td>
+
+                            <td>
+
+                                <div class="actions">
+
+                                    <button>✎</button>
+                                    <button>↑</button>
+                                    <button>↓</button>
+                                    <button>🗑</button>
+
+                                </div>
+
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
