@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTG System</title>
+    <link rel="stylesheet" href="Trans.css">
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div>
+
+            <div class="logo">
+                <h1>MTG SYSTEM</h1>
+                <p>DEVELOPMENT</p>
+            </div>
+
+            <nav class="menu">
+
+                <h3 class="menu-title">
+                    MENU PRINCIPAL
+                </h3>
+
+               <ul>
+
+                    <li>
+                        <a href="http://127.0.0.1:5500/Produtos.html" >
+                            Produtos
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://127.0.0.1:5500/Estoque.html">
+                            Estoque
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://127.0.0.1:5500/Trans.html#" class="active">
+                            Transações
+                        </a>
+                    </li>
+
+                </ul>
+
+
+            </nav>
+
+        </div>
+
+        <!-- USUÁRIO -->
+
+        <div class="user">
+
+            <div class="avatar">
+                G
+            </div>
+
+            <div class="user-info">
+                <h3>Guilherme</h3>
+                <p>Administrador</p>
+            </div>
+
+        </div>
+
+    </aside>
+
+    <!-- MAIN -->
+
+    <main class="main">
+
+        <!-- TOPBAR -->
+
+        <header class="topbar">
+
+            <h2>Transações</h2>
+
+            <div class="topbar-actions">
+
+                <span>Logout</span>
+
+                <button class="logout-btn">
+                    
+                     <a href="http://127.0.0.1:5500/Login.html">
+                        ↪
+
+                    </a>
+                </button>
+
+            </div>
+
+        </header>
+
+        <!-- PAGE -->
+
+        <section class="relatorios-page">
+
+            <div class="page-header">
+
+                <h1>
+                    Transações de Estoque
+                </h1>
+
+                <p>
+                    Relatório das transações de entrada e saída de produtos.
+                </p>
+
+            </div>
+
+            <div class="table-wrapper">
+
+                <div class="report-category-box">
+
+                    <table>
+
+                        <thead>
+                            <tr>
+                                <th>CATEGORIA</th>
+                                <th>QTD PRODUTOS</th>
+                                <th>% DO TOTAL</th>
+                                <th>VALOR EM ESTOQUE</th>
+                                <th>DISTRIBUIÇÃO</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+
+                                <td class="product-name">
+                                    Freios
+                                </td>
+
+                                <td>3</td>
+
+                                <td>
+                                    <span class="badge">
+                                        20%
+                                    </span>
+                                </td>
+
+                                <td class="value">
+                                    R$ 6.484,00
+                                </td>
+
+                                <td>
+
+                                    <div class="distribution">
+
+                                        <div class="progress-bar">
+                                            <div class="progress-fill w20"></div>
+                                        </div>
+
+                                        <span>20%</span>
+
+                                    </div>
+
+                                </td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td class="product-name">
+                                    Motor
+                                </td>
+
+                                <td>3</td>
+
+                                <td>
+                                    <span class="badge">
+                                        20%
+                                    </span>
+                                </td>
+
+                                <td class="value">
+                                    R$ 6.290,00
+                                </td>
+
+                                <td>
+
+                                    <div class="distribution">
+
+                                        <div class="progress-bar">
+                                            <div class="progress-fill w20"></div>
+                                        </div>
+
+                                        <span>20%</span>
+
+                                    </div>
+
+                                </td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td class="product-name">
+                                    Suspensão
+                                </td>
+
+                                <td>3</td>
+
+                                <td>
+                                    <span class="badge">
+                                        20%
+                                    </span>
+                                </td>
+
+                                <td class="value">
+                                    R$ 12.455,00
+                                </td>
+
+                                <td>
+
+                                    <div class="distribution">
+
+                                        <div class="progress-bar">
+                                            <div class="progress-fill w20"></div>
+                                        </div>
+
+                                        <span>20%</span>
+
+                                    </div>
+
+                                </td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td class="product-name">
+                                    Filtros
+                                </td>
+
+                                <td>2</td>
+
+                                <td>
+                                    <span class="badge">
+                                        13%
+                                    </span>
+                                </td>
+
+                                <td class="value">
+                                    R$ 4.655,30
+                                </td>
+
+                                <td>
+
+                                    <div class="distribution">
+
+                                        <div class="progress-bar">
+                                            <div class="progress-fill w13"></div>
+                                        </div>
+
+                                        <span>13%</span>
+
+                                    </div>
+
+                                </td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td class="product-name">
+                                    Elétrica
+                                </td>
+
+                                <td>1</td>
+
+                                <td>
+                                    <span class="badge">
+                                        7%
+                                    </span>
+                                </td>
+
+                                <td class="value">
+                                    R$ 900,00
+                                </td>
+
+                                <td>
+
+                                    <div class="distribution">
+
+                                        <div class="progress-bar">
+                                            <div class="progress-fill w7"></div>
+                                        </div>
+
+                                        <span>7%</span>
+
+                                    </div>
+
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
